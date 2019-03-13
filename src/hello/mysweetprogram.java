@@ -9,8 +9,9 @@ public class mysweetprogram {
 
 		Scanner scanner = new Scanner(System.in);
 		String name = scanner.nextLine();
-				
-		System.out.println("hello" + name);
+		System.out.println("what are you working on today?");
+		String answer = scanner.nextLine();			
+		System.out.println("hello " + name + ", hope working on " + answer + " goes well");
 	}
 
 }
